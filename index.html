@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+   <title>App de clima</title>
+</head>
+<body>
+   <div class="container">
+      <header>
+         <input type="search" autocomplete="off" value="" id="search-box" placeholder="Buscar una ciudad...">
+      </header>
+      <main>
+         <section class="location">
+            <div class="city">Buenos Aires, Argentina</div>
+            <div class="date">Miercoles 8 de Junio</div>
+         </section>
+         <div class="current-weather">
+            <div class="temp">4<span>°c</span></div>
+            <div class="weather">Lluvioso</div>
+            <div class="humidity"> Humedad: 50%</div>
+            <div class="wind">Viento: 12 km/h</div>
+         </div>
+      </main>
+      <section class="selection">
+         <h3 class="click">Haz click en una opcion</h3>
+         <div class="options">
+            <div class="op1">Mostrar clima</div>
+            <div class="op2">Mostrar temperatura</div>
+            <div class="op3">Mostrar velocidad del viento</div>
+            <div class="op4">Mostrar la humedad</div>
+         </div>
+      </section>
+      <div class="spinner"></div>
+   </div>
+   
+   <script src="js/app.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

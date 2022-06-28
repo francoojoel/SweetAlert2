@@ -1,0 +1,142 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'montserrat', sans-serif;
+   background-image: url('../assets/rainy.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+   min-height: 100vh;
+}
+
+header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 4rem 1rem 1rem;
+}
+
+header input {
+   width: 100%;
+   max-width: 280px;
+   padding: 0.5rem 1rem;
+   border: none;
+   outline: none;
+   background-color: rgba(255, 255, 255, 0.3);
+   border-radius: 16px 0 16px 0;
+   border-bottom: 3px solid #CAC463;
+   color: #2F2F44;
+   font-size: 1.2rem;
+   font-weight: 300;
+   transition: 0.2s ease-out;
+}
+
+header input:focus {
+   background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+   padding: 2rem 2rem 3rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+ 
+ .location .city {
+   color: #fff;
+   font-size: 2rem;
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+ 
+ .location .date {
+   color: #fff;
+   font-size: 1rem;
+}
+ 
+ .current-weather .temp {
+   color: #fff;
+   font-size: 102px;
+   font-weight: 900;
+   margin: 2rem 0px;
+   text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+ 
+ .current-weather .temp span {
+   font-weight: 500;
+}
+ 
+ .current-weather .weather {
+   color: #FFF;
+   font-size: 2rem;
+   font-weight: 700;
+   margin: 1rem 0.8rem;
+   text-shadow: 2px 10px rgba(0, 0, 0, 0.3);
+}
+ 
+ .current-weather .humidity {
+   margin: 0.8rem 1rem;
+   color: #FFF;
+   font-size: 1.5rem;
+   font-weight: 500;
+   text-shadow: 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.current-weather .wind {
+   margin: 0.8rem 1rem;
+   color: #FFF;
+   font-size: 1.5rem;
+   font-weight: 500;
+   text-shadow: 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.selection {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 auto;
+   min-height: 180px;
+   min-width: 270px;
+   border-radius: 16px;
+   background-color: rgba(255, 255, 255, 0.6);   
+}
+
+.selection .click {
+   padding: 0.6rem 0.8rem;
+   color: #fff;
+}
+
+.options .op1 {
+   margin: 0.6rem 0.8rem;
+   color: #000;
+   cursor: pointer;
+}
+
+.options .op2 {
+   margin: 0.6rem 0.8rem;
+   color: #000;
+   cursor: pointer;
+}
+
+.options .op3 {
+   margin: 0.6rem 0.8rem;
+   color: #000;
+   cursor: pointer;
+}
+
+.options .op4 {
+   margin: 0.6rem 0.8rem;
+   color: #000;
+   cursor: pointer;
+}
+
